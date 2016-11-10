@@ -37,7 +37,7 @@ if ( ! class_exists( 'UCF_College_Taxonomy' ) ) {
 ?>
 			<tr class="form-field term-group-wrap">
 				<th scope="row"><label for="colleges_alias"><?php _e( 'College Alias', 'ucf_colleges' ); ?></label></th>
-				<td><input type="text" id="colleges_alias" name="colleges_alias" value="<?php echo $alias; ?>">
+				<td><input type="text" id="colleges_alias" name="colleges_alias" value="<?php echo $alias; ?>"></td>
 			</tr>
 <?php
 		}
