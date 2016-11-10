@@ -11,7 +11,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 add_action( 'plugins_loaded', function() {
-	define( 'UCF_COLLEGES__PLUGIN_URL', plugins_url( 'ucf-colleges-tax' ) );
+	define( 'UCF_COLLEGES__PLUGIN_URL', plugins_url( basename( dirname( __FILE__ ) ) ) );
 	define( 'UCF_COLLEGES__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 	include_once 'includes/ucf-colleges-taxonomy.php';
