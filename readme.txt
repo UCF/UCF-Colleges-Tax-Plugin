@@ -22,7 +22,7 @@ Provides a custom taxonomy for describing UCF Colleges. Designed to leverage def
 2. Activate the plugin through the "Plugins" screen in WordPress
 
 = WP CLI Installation =
-1. `$ wp plugin install --activate https://github.com/UCF/UCF-Degree-CPT/archive/master.zip`.  See [WP-CLI Docs](http://wp-cli.org/commands/plugin/install/) for more command options.
+1. `$ wp plugin install --activate https://github.com/UCF/UCF-Colleges-Tax-Plugin/archive/master.zip`.  See [WP-CLI Docs](http://wp-cli.org/commands/plugin/install/) for more command options.
 
 
 == Changelog ==
