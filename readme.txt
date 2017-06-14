@@ -27,7 +27,13 @@ Provides a custom taxonomy for describing UCF Colleges. Designed to leverage def
 
 == Changelog ==
 
-N/A
+= v1.0.1 =
+Enhancements:
+* Added rest api endpoint.
+* Added alias custom term meta to api endpoint.
+
+= v1.0.0 =
+* Initial Release
 
 == Upgrade Notice ==
 
