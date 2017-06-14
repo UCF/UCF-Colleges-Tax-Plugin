@@ -2,7 +2,7 @@
 /*
 Plugin Name: UCF College Custom Taxonomy
 Description: Provides a college taxonomy and related meta fields.
-Version: 1.0.0
+Version: 1.0.1
 Author: UCF Web Communications
 License: GPL3
 */
