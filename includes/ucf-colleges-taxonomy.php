@@ -115,6 +115,9 @@ if ( ! class_exists( 'UCF_College_Taxonomy' ) ) {
 				'show_admin_column'          => true,
 				'show_in_nav_menus'          => true,
 				'show_tagcloud'              => true,
+				'show_in_rest'               => true,
+				'rest_base'                  => 'colleges',
+				'rest_controller_class'      => 'WP_REST_Terms_Controller'
 			);
 		}
 	}

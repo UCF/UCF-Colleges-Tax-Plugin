@@ -15,9 +15,10 @@ add_action( 'plugins_loaded', function() {
 	define( 'UCF_COLLEGES__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 	include_once 'includes/ucf-colleges-taxonomy.php';
+	include_once 'includes/ucf-colleges-api.php';
 
-	add_action( 'init', array( 'UCF_College_Taxonomy', 'register_colleges' ), 0 );
-
+	add_action( 'init', array( 'UCF_College_Taxonomy', 'register_colleges' ), 10, 0 );
+	add_action( 'rest_api_init', array( 'UCF_College_API', 'register_rest_routes' ), 10, 0 );
 } );
 
 ?>
