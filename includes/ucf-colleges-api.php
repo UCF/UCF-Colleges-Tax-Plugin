@@ -28,15 +28,6 @@ if ( ! class_exists( 'UCF_College_API' ) ) {
                     'schema'          => null
                 )
             );
-
-            register_rest_field(
-                'colleges',
-                'url',
-                array(
-                    'get_callback'    => array( 'UCF_College_API', 'add_url_field' ),
-                    'schema'          => null
-                )
-            );
         }
 
         /**
@@ -51,20 +42,6 @@ if ( ! class_exists( 'UCF_College_API' ) ) {
             $alias = get_term_meta( $term_id, 'colleges_alias', true );
             
             return ! empty( $alias ) ? $alias : null;
-        }
-
-        /**
-         * Adds the url field to the colleges api
-         * @author Jim Barnes
-         * @since 1.0.1
-         * @param $object Array | The array of college data
-         * @return (string|null) | The url of the college
-         **/
-        public static function add_url_field( $object ) {
-            $term_id = $object['id'];
-            $url = get_term_meta( $term_id, 'colleges_url', true );
-
-            return ! empty( $url ) ? $url : null;
         }
     }
 }
