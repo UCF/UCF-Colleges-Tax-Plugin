@@ -20,17 +20,22 @@ Provides a custom taxonomy for describing UCF Colleges. Designed to leverage def
 
 ## Changelog ##
 
-### v1.0.1 ###
+### 2.0.0 ###
+Enhancements:
+* Modified college slugs to be singular (`/college/`) instead of plural (`/colleges/`).  Note that this is a breaking change, and requires flushing permalink settings manually to take effect.
+
+### 1.0.1 ###
 Enhancements:
 * Added rest api endpoint.
 * Added alias custom term meta to api endpoint.
 
-### v1.0.0 ###
+### 1.0.0 ###
 * Initial Release
 
 ## Upgrade Notice ##
 
-n/a
+### 2.0.0 ###
+Taxonomy permalinks have been modified (`colleges` -> `college`).  Permalink settings must be flushed manually for this change to take effect when upgrading from v1.0.x.
 
 
 ## Installation Requirements ##
