@@ -117,7 +117,8 @@ if ( ! class_exists( 'UCF_College_Taxonomy' ) ) {
 				'show_tagcloud'              => true,
 				'show_in_rest'               => true,
 				'rest_base'                  => 'colleges',
-				'rest_controller_class'      => 'WP_REST_Terms_Controller'
+				'rest_controller_class'      => 'WP_REST_Terms_Controller',
+				'rewrite'                    => array( 'slug' => 'college' )
 			);
 		}
 	}
