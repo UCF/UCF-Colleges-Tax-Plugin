@@ -20,6 +20,10 @@ Provides a custom taxonomy for describing UCF Colleges. Designed to leverage def
 
 ## Changelog ##
 
+### 2.0.1 ###
+Enhancements:
+* Added composer file.
+
 ### 2.0.0 ###
 Enhancements:
 * Modified college slugs to be singular (`/college/`) instead of plural (`/colleges/`).  Note that this is a breaking change, and requires flushing permalink settings manually to take effect.

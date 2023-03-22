@@ -1,0 +1,8 @@
+{
+    "name": "ucf/ucf-colleges-tax-plugin",
+    "description": "Provides a custom taxonomy for describing UCF Colleges.",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

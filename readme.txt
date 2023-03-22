@@ -2,8 +2,8 @@
 Contributors: ucfwebcom
 Tags: ucf, college, taxonomy
 Requires at least: 4.5.3
-Tested up to: 4.5.3
-Stable tag: 1.0.0
+Tested up to: 6.1
+Stable tag: 2.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
@@ -26,6 +26,10 @@ Provides a custom taxonomy for describing UCF Colleges. Designed to leverage def
 
 
 == Changelog ==
+
+= 2.0.1 =
+Enhancements:
+* Added composer file.
 
 = 2.0.0 =
 Enhancements:
